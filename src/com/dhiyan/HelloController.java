@@ -5,8 +5,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloController {
 		
-@RequestMapping("/")	
+@RequestMapping("/hello")	
 public String display() {
-	return "hello dhiyanesh";
+	return "viewredirect";
+}
+
+@RequestMapping("/welcome")	
+public String displayWelcome() {
+	return "welcomepage";
 }
 }

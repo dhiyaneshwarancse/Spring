@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p>welcome to MVC world</p>
+<p><a href="hello">click here</a></p>
 </body>
 </html>
